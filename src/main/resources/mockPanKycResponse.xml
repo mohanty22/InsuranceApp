@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:pank="http://example.com/pankyc">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <pank:GetPanKycResponse>
+      <!-- Person 1 -->
+      <pank:people>
+        <pank:panNumber>RAVIK1234A</pank:panNumber>
+        <pank:mobileNumber>9876543210</pank:mobileNumber>
+        <pank:gender>M</pank:gender>
+        <pank:dob>14-May-1988</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Ravi Kumar</pank:fullName>
+          <pank:address>123 MG Road, New Delhi, DL 110001</pank:address>
+          <pank:occupation>Software Engineer</pank:occupation>
+          <pank:organization>InfoTech Solutions Pvt Ltd</pank:organization>
+          <pank:motherName>Sita Devi</pank:motherName>
+          <pank:fatherName>Mohan Lal</pank:fatherName>
+          <pank:email>ravi.kumar@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Married</pank:maritalStatus>
+          <pank:alternateContact>011-23456789</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 2 -->
+      <pank:people>
+        <pank:panNumber>PRISH2345B</pank:panNumber>
+        <pank:mobileNumber>9123456780</pank:mobileNumber>
+        <pank:gender>F</pank:gender>
+        <pank:dob>02-Nov-1990</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Priya Sharma</pank:fullName>
+          <pank:address>45 Park Street, Kolkata, WB 700016</pank:address>
+          <pank:occupation>Teacher</pank:occupation>
+          <pank:organization>Starlight Public School</pank:organization>
+          <pank:motherName>Laxmi Devi</pank:motherName>
+          <pank:fatherName>Ramesh Sharma</pank:fatherName>
+          <pank:email>priya.sharma@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Single</pank:maritalStatus>
+          <pank:alternateContact>033-76543210</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 3 -->
+      <pank:people>
+        <pank:panNumber>SUREP3456C</pank:panNumber>
+        <pank:mobileNumber>9988776655</pank:mobileNumber>
+        <pank:gender>M</pank:gender>
+        <pank:dob>21-Mar-1979</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Suresh Patel</pank:fullName>
+          <pank:address>12 Lotus Avenue, Ahmedabad, GJ 380009</pank:address>
+          <pank:occupation>Businessman</pank:occupation>
+          <pank:organization>Patel Enterprises</pank:organization>
+          <pank:motherName>Kamla Patel</pank:motherName>
+          <pank:fatherName>Bhupendra Patel</pank:fatherName>
+          <pank:email>suresh.patel@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Married</pank:maritalStatus>
+          <pank:alternateContact>079-22334455</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 4 -->
+      <pank:people>
+        <pank:panNumber>ANITR4567D</pank:panNumber>
+        <pank:mobileNumber>9012345678</pank:mobileNumber>
+        <pank:gender>F</pank:gender>
+        <pank:dob>30-Aug-1985</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Anita Reddy</pank:fullName>
+          <pank:address>78 Sunrise Blvd, Hyderabad, TS 500081</pank:address>
+          <pank:occupation>Doctor</pank:occupation>
+          <pank:organization>City Hospital</pank:organization>
+          <pank:motherName>Radha Reddy</pank:motherName>
+          <pank:fatherName>Venkatesh Reddy</pank:fatherName>
+          <pank:email>anita.reddy@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Married</pank:maritalStatus>
+          <pank:alternateContact>040-99887766</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 5 -->
+      <pank:people>
+        <pank:panNumber>ALEXR5678E</pank:panNumber>
+        <pank:mobileNumber>9445566677</pank:mobileNumber>
+        <pank:gender>O</pank:gender>
+        <pank:dob>09-Dec-1992</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Alex Rodrigues</pank:fullName>
+          <pank:address>9 Seaside Road, Goa, GA 403001</pank:address>
+          <pank:occupation>Artist</pank:occupation>
+          <pank:organization>Freelance Artist</pank:organization>
+          <pank:motherName>Maria Rodrigues</pank:motherName>
+          <pank:fatherName>Jose Rodrigues</pank:fatherName>
+          <pank:email>alex.rodrigues@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Single</pank:maritalStatus>
+          <pank:alternateContact>0832-44332211</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 6 -->
+      <pank:people>
+        <pank:panNumber>MEERI6789F</pank:panNumber>
+        <pank:mobileNumber>9870123456</pank:mobileNumber>
+        <pank:gender>F</pank:gender>
+        <pank:dob>19-Jul-1995</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Meera Iyer</pank:fullName>
+          <pank:address>22 Green Park, Chennai, TN 600028</pank:address>
+          <pank:occupation>Content Strategist</pank:occupation>
+          <pank:organization>Bright Media</pank:organization>
+          <pank:motherName>Shyamala Iyer</pank:motherName>
+          <pank:fatherName>Rangan Iyer</pank:fatherName>
+          <pank:email>meera.iyer@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Single</pank:maritalStatus>
+          <pank:alternateContact>044-55667788</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 7 -->
+      <pank:people>
+        <pank:panNumber>KARAS7890G</pank:panNumber>
+        <pank:mobileNumber>9765432109</pank:mobileNumber>
+        <pank:gender>M</pank:gender>
+        <pank:dob>25-Jan-1991</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Karan Singh</pank:fullName>
+          <pank:address>7 Rosewood Lane, Jaipur, RJ 302015</pank:address>
+          <pank:occupation>QA Engineer</pank:occupation>
+          <pank:organization>Greenfield Labs</pank:organization>
+          <pank:motherName>Neerja Singh</pank:motherName>
+          <pank:fatherName>Harish Singh</pank:fatherName>
+          <pank:email>karan.singh@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Married</pank:maritalStatus>
+          <pank:alternateContact>0141-2233445</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 8 -->
+      <pank:people>
+        <pank:panNumber>DEEPN8901H</pank:panNumber>
+        <pank:mobileNumber>9880011223</pank:mobileNumber>
+        <pank:gender>F</pank:gender>
+        <pank:dob>05-Apr-1987</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Deepa Nair</pank:fullName>
+          <pank:address>101 Palm Street, Kochi, KL 682011</pank:address>
+          <pank:occupation>Nutritionist</pank:occupation>
+          <pank:organization>Wellness Labs</pank:organization>
+          <pank:motherName>Latha Nair</pank:motherName>
+          <pank:fatherName>Gopal Nair</pank:fatherName>
+          <pank:email>deepa.nair@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Single</pank:maritalStatus>
+          <pank:alternateContact>0484-66778899</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 9 -->
+      <pank:people>
+        <pank:panNumber>VIKRJ9012J</pank:panNumber>
+        <pank:mobileNumber>9701234567</pank:mobileNumber>
+        <pank:gender>M</pank:gender>
+        <pank:dob>12-Sep-1983</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Vikram Joshi</pank:fullName>
+          <pank:address>56 Hilltop, Pune, MH 411001</pank:address>
+          <pank:occupation>Financial Analyst</pank:occupation>
+          <pank:organization>Aurora Finance</pank:organization>
+          <pank:motherName>Usha Joshi</pank:motherName>
+          <pank:fatherName>Rajesh Joshi</pank:fatherName>
+          <pank:email>vikram.joshi@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Married</pank:maritalStatus>
+          <pank:alternateContact>020-33445566</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+      <!-- Person 10 -->
+      <pank:people>
+        <pank:panNumber>SUNIV0123K</pank:panNumber>
+        <pank:mobileNumber>9812345670</pank:mobileNumber>
+        <pank:gender>F</pank:gender>
+        <pank:dob>28-Feb-1986</pank:dob>
+        <pank:ckycDetails>
+          <pank:fullName>Sunita Verma</pank:fullName>
+          <pank:address>8 Lakeview, Lucknow, UP 226001</pank:address>
+          <pank:occupation>HR Manager</pank:occupation>
+          <pank:organization>Verma Consulting</pank:organization>
+          <pank:motherName>Kamla Verma</pank:motherName>
+          <pank:fatherName>Om Prakash Verma</pank:fatherName>
+          <pank:email>sunita.verma@example.com</pank:email>
+          <pank:nationality>Indian</pank:nationality>
+          <pank:maritalStatus>Married</pank:maritalStatus>
+          <pank:alternateContact>0522-44556677</pank:alternateContact>
+        </pank:ckycDetails>
+      </pank:people>
+
+    </pank:GetPanKycResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
